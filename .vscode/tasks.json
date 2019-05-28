@@ -1,0 +1,45 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "g++ gl && glfw",
+            "command": "/bin/g++",
+            "args": [
+                "-std=c++17",
+                "-O0",
+                "-g",
+                "${file}",
+                "-o",
+                "${workspaceFolder}/main.out",
+                "-lglfw",
+                "-lglut",
+                "-lGLU",
+                "-lGL",
+                "&&",
+                "echo",
+                "DONE"
+            ],
+            "options": {
+                "cwd": "/bin"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": true
+            }
+        }
+    ]
+}
