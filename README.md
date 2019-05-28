@@ -2,7 +2,7 @@ Simple double pendulum simulation. Drawn using openGL. Numerical integration is 
 
 <p>
 <video width="500" height="500" class="audioplayer" controls>       
-<source type="video/webm" src="img/pendulum.webm"></source>
+<source type="video/webm" src="https://raw.githubusercontent.com/yatsukha/double-pendulum/master/img/pendulum.webm"></source>
 Your browser does not support playing HTML5 video. Check out img/pendulum.webm.
 </video>
 </p>
