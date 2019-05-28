@@ -1,2 +1,8 @@
 Simple double pendulum simulation. Drawn using openGL. Numerical integration is done using the Runge-Kutta 4th order method.
 
+<p>
+<video width="500" height="500" class="audioplayer" controls>       
+<source type="video/webm" src="img/pendulum.webm"></source>
+Double Pendulum video
+</video>
+</p>
